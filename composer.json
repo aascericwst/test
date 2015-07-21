@@ -1,8 +1,8 @@
 {
     "name":"aascericwst/test",
     "type":"magento-module",
-    "license":"OSL-3.0",
-    "homepage":"git@bitbucket.org:aascericwst/test.git",
+    "license":"GNU GENERAL PUBLIC LICENSE",
+    "homepage":"https://github.com/aascericwst/test",
     "description":"Test module",
     "authors":[
         {
