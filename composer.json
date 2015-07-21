@@ -12,5 +12,12 @@
     ],
     "require":{
         "magento-hackathon/magento-composer-installer":"*"
-    }
+    },
+    "extra":{
+    "map":[
+      ["app/code/local/Westum/Test app/code/local/Westum/Test", "app/code/local/Westum/Test app/code/local/Westum/Test"],
+      ["app/etc/modules/Westum_Test.xml", "app/etc/modules/Westum_Test.xml"]
+    ]
+  }
+    
 }
