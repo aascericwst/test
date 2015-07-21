@@ -13,11 +13,4 @@
     "require":{
         "magento-hackathon/magento-composer-installer":"*"
     },
-    "extra": {
-	    "magento-deploystrategy": "copy",
-	    "map":[
-	      ["app/code/local/Westum/Test", "app/code/local/Westum/Test"],
-	      ["app/etc/modules/Westum_Test.xml", "app/etc/modules/Westum_Test.xml"]
-	    ]
-  	}
 }
