@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Westum_Test>
+      <version>0.1.0</version>
+    </Westum_Test>
+  </modules>
+  <global>
+	<models>
+	  <westum_test>
+		<class>Westum_Test_Model</class>
+	  </westum_test>
+	</models>
+    <events>
+	  <controller_action_predispatch>  
+        <observers>
+          <add_to_cart_before_handler>  
+            <type>model</type>  
+            <class>Westum_Test_Model_Observer</class>  
+            <method>hookToControllerActionPreDispatch</method>
+          </add_to_cart_before_handler>
+        </observers>
+      </controller_action_predispatch>
+    </events>
+  </global>
+</config> 

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Westum_Test>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </Westum_Test>
+  </modules>
+</config>

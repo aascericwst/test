@@ -1,0 +1,16 @@
+{
+    "name":"aascericwst/test",
+    "type":"magento-module",
+    "license":"OSL-3.0",
+    "homepage":"git@bitbucket.org:aascericwst/test.git",
+    "description":"Test module",
+    "authors":[
+        {
+            "name":"Aleksandar Asceric",
+            "email":"aasceric@westum.com"
+        }
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}
