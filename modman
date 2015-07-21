@@ -1,0 +1,6 @@
+#
+# Test modman file
+#
+
+app/code/local/Westum/Test app/code/local/Westum/Test
+app/etc/modules/Westum_Test.xml app/etc/modules/Westum_Test.xml
